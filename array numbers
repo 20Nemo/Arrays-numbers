@@ -1,0 +1,11 @@
+function sortArray(numbers) {
+  return numbers.sort(function(a, b) {
+    return a - b;
+  });
+}
+
+var inputArray = [8, 2, 4, 10, 3, 5];
+
+var sortedArray = sortArray(inputArray);
+
+console.log(sortedArray);
